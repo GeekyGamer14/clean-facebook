@@ -1,0 +1,189 @@
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/K88pR3goAWT7BTt32Z01m1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/RjgO7rYTmqiVp7vzi-Q5UVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+	unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/ttwNtsRpgsxVmgGGmiUOEltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+	unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC;
+}
+/* greek-ext */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/LWCjsQkB6EMdfHrEVqA1KVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/xozscpT2726on7jbcb_pAltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/59ZRklaO5bWGqF5A9baEEVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+/* latin-ext */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/u-WUoqrET9fUeobQW7jkRVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+*, * *, .comment_link{
+	font-family: "Open Sans";
+}
+
+._6_7{
+	text-transform: uppercase;
+}
+
+.timelineUnitContainer{
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+}
+
+.topBorder{
+	background: transparent !important;
+	border-top: 1px solid lightgray;
+}
+
+.bottomBorder{
+	background: transparent !important;
+	border-bottom: 1px solid lightgray;
+}
+
+._4-u2{
+	background: #fff;
+	border: 1px solid;
+	border-color: lightgray !important;
+	-webkit-border-radius: 0px !important;
+}
+
+#blueBarNAXAnchor{
+	background: #3B5998;
+	-webkit-box-shadow: none;
+}
+
+._5lus a{
+	background: url(chrome-extension://__MSG_@@extension_id__/img/logo.png) !important;
+	background-position: 0 0 !important;
+	background-size: cover !important;
+}
+
+html ._2dpc{
+	padding-top: 1px;
+	border-radius: 60% !important;
+}
+
+.UFIActorImage, .img._8o._8r._33h, ._s0._5xib._5sq7._rw.img, ._s0._rw.img{
+	border-radius: 50%;
+	outline: none !important;
+}
+
+._5pbj._p{
+	transition: transform .5s;
+}
+
+._5pbj._p[aria-expanded="true"]{
+	transform: rotateX(180deg);
+}
+
+.clearfix.fbNubFlyoutTitlebar.titlebar{
+	border-radius: 0px;
+	background: #4b67a8;
+}
+
+._1nc6 ._5w1r, ._1nc7 ._5w1r{
+	border-radius: 0px;
+	box-shadow: none;
+}
+
+._1nc6 ._5w1r{
+	background: #dbedfe;
+}
+
+._1nc7 ._5w1r{
+	background: #f7f7f7;
+}
+
+._585-, ._50c9, html ._6-d .fbTimelineSection, .uiScaledImageContainer._7lj, div._4-7n ._572u, ._53ii ._53ij{
+	border-radius: 0px !important;
+}
+
+._585-{
+	max-width: 10000px !important;
+}
+
+.UFILikeLink{
+	background-image: url(/rsrc.php/v2/yy/r/OMALZqiGpeq.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: -118px -465px;
+	width: 13px;
+	height: 14px;
+	font-size: 0;
+	display: inline-table;
+	top: 5px;
+}
+
+.like_link[name="like"] > .saving_message, .like_link[name="unlike"] > .default_message, .like_button_unlike, .UFILikeLink[data-ft="{\"tn\":\"?\"}"], .fbUpDownVoteOption[ajaxify$="vote=neutral"]{
+	top: 5px;
+	position: relative;
+	transform: rotate(180deg);
+}
+
+._5b_0._5bgz, ._513x, ._1ayn[data-gt="{\"chrome_nav_item\":\"home_chrome\"}"], ._2wnm._56lq, ._4-u2._5v6e.cardRightCol, #pagelet_rhc_footer, .UFICommentLikeIcon, .UFILikeLink:before, ._2dpb, ._5v9k .UFIAddComment .UFIImageBlockImage:after, ._5v9k .UFIComment .UFIImageBlockImage:after, ._5v9u:after, .litestandClassicWelcomeBox .fbxWelcomeBoxBlock:after, ._4f7n:after, ._2dpe:after, ._2dpe:hover::after, ._12-g .fbEigenpollFacepile .fbQuestionFacepileItem a:after, img[src$="friends_24.png"]{
+	display: none !important;
+}
+
+#leftCol{
+	overflow: hidden;
+	max-height: 45px;
+	opacity: 0.7;
+	transition: max-height .5s, opacity 1s;
+	border-bottom: 1px solid lightgray;
+}
+
+#leftCol:hover{
+	max-height: 1500px;
+	opacity: 1;
+}
+
+img[src$="friends_24.png"]:after{
+	width: 24px;
+	height: 24px;
+}

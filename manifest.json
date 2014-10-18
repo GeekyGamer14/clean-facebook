@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "Clean Redesign for Facebook",
+	"version": "0.1",
+	"description": "A work in progress. Redesign Facebook to make it look cleaner and simpler.",
+
+	"icons":	{
+		"16": "img/logo.png",
+		"48": "img/logo.png",
+		"128": "img/logo.png"
+	},
+
+	"web_accessible_resources": [
+		"img/*"
+	],
+
+	"permissions": [
+		"*://fonts.gstatic.com/*",
+		"*://i.imgur.com/*"
+	],
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.facebook.com/*"],
+			"css": ["clean.css"]
+		}
+	]
+}
