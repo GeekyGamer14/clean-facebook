@@ -186,4 +186,5 @@ html ._2dpc{
 img[src$="friends_24.png"]:after{
 	width: 24px;
 	height: 24px;
+	background-size: cover;
 }
